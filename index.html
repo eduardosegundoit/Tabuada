@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title> Tabuada </title>
+</head>
+<body>
+    <nav>
+        <a href="https://github.com/eduardosegundoit" target="_blank" rel="noopener noreferrer"><img src="github-mark-white.svg" alt="github">Github: Carlos Eduardo</a>
+    </nav>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <main>
+        <section>
+            <label>Qual Tabuada você deseja saber ?</label>
+            <input type="number" id="num-entrada" placeholder=" Insira o Número da tabuada aqui" required>
+            <label>até qual número você quer ?</label>
+            <input type="number" id="num-final" placeholder=" Insira até qual número deseja saber" required>
+            <input type="button" value="Calcular" id="btn" onclick="Tabuada()">
+            <div id="resposta">
+                <label>Preencha os valores acima !</label>
+            </div>
+        </section>
+    </main>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
